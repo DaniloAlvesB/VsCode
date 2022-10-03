@@ -14,7 +14,7 @@ function filter_list(){
         }
 
         filters1.innerHTML += `
-            <a id="${filtros[i][0]}" onclick="test('${filtros[i][0]}')" class="list d-flex flex-row justify-content-between" href="/view/filter1.html">
+            <a id="${filtros[i][0]}" onclick="test('${filtros[i][0]}')" class="list d-flex flex-row justify-content-between" href="view/filter1.html">
                 <h6>${filtros[i][0]}</h6>
                 ${cont}
             </a>
@@ -51,10 +51,10 @@ function filter_page(){
         if(image_v1 == filter_code || image_v2 == filter_code || image_v3 == filter_code){
             if(msg == "Sem resultados"){ msg = 1; }else{ msg++ }
             filters1.innerHTML += `
-                <!--<img class="img_vh" src="/view/images/Unhas/${imagens[i][2]}" height="250px"> -->
+                <!--<img class="img_vh" src="view/images/Unhas/${imagens[i][2]}" height="250px"> -->
 
                 <div class="card m-2 img_vh">
-                    <img src="/view/images/Unhas/${imagens[i][2]}" class="card-img-top" alt="...">
+                    <img src="view/images/Unhas/${imagens[i][2]}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">${imagens[i][0]}</h5>
                     <p class="card-text">${imagens[i][1]}</p>
