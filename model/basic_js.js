@@ -54,7 +54,7 @@ function filter_page(){
                 <!--<img class="img_vh" src="view/images/Unhas/${imagens[i][2]}" height="250px"> -->
 
                 <div class="card m-2 img_vh">
-                    <img src="view/images/Unhas/${imagens[i][2]}" class="card-img-top" alt="...">
+                    <img src="../view/images/Unhas/${imagens[i][2]}" class="card-img-top" alt="...">
                     <div class="card-body">
                     <h5 class="card-title">${imagens[i][0]}</h5>
                     <p class="card-text">${imagens[i][1]}</p>
