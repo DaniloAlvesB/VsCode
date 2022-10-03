@@ -14,7 +14,7 @@ function filter_list(){
         }
 
         filters1.innerHTML += `
-            <a id="${filtros[i][0]}" onclick="test('${filtros[i][0]}')" class="list d-flex flex-row justify-content-between" href="/filter1.html">
+            <a id="${filtros[i][0]}" onclick="test('${filtros[i][0]}')" class="list d-flex flex-row justify-content-between" href="filter1.html">
                 <h6>${filtros[i][0]}</h6>
                 ${cont}
             </a>
