@@ -8,7 +8,7 @@ footer.innerHTML = `
         </a>
 
         <ul class="nav col-md-4 justify-content-end">
-        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Início</a></li>
+        <li class="nav-item"><a href="/view/index2.html" class="nav-link px-2 text-muted">Início</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Esmaltes</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Unhas</a></li>
         <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Valores</a></li>

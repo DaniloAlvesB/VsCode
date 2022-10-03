@@ -6,7 +6,7 @@ header.innerHTML = `
     </a>
 
     <ul class="nav nav-pills">
-    <li class="nav-item"><a href="/view/index.html" class="nav-link">Início</a></li>
+    <li class="nav-item"><a href="/view/index2.html" class="nav-link">Início</a></li>
     <li class="nav-item"><a href="#" class="nav-link">Esmaltes</a></li>
     <li class="nav-item"><a href="#" class="nav-link">Unhas</a></li>
     <li class="nav-item"><a href="#" class="nav-link">Valores</a></li>
